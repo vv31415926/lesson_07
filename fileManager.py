@@ -31,12 +31,14 @@ if __name__ == '__main__':
             pa.goGame()
             print('------------------')
         elif nMenu == 10:
+            saveDir()
+        elif nMenu == 11:
             pa.goGame()
             print('------------------')
-        elif nMenu == 11:
+        elif nMenu == 12:
             chDir()
             print('------------------')
-        elif nMenu == 12:
+        elif nMenu == 13:
             goMenu = False
         else:
             print( 'Ошибка выбора!\n-------------')
